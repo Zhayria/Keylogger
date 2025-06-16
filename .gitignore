@@ -13,3 +13,5 @@ logs/
 # Environment and secrets
 .env
 config.py
+
+.DS_Store
