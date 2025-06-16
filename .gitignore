@@ -1,8 +1,15 @@
+# Python cache
 __pycache__/
 *.pyc
+
+# Log and audio/image output
+*.log
 *.wav
 *.png
-*.log
+
+# Logs folder
 logs/
+
+# Environment and secrets
 .env
-config.py  # only if it contains private keys/passwords!
+config.py
