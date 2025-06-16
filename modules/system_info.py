@@ -6,6 +6,7 @@ from datetime import datetime
 LOG_FILE = "logs/systeminfo.txt"
 
 def collect():
+    # Gather System info and writes to log file
     try:
         with open(LOG_FILE, "w") as f:
             f.write(f"System Infromation Report - {datetime.now()} \n")
