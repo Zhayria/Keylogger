@@ -29,27 +29,4 @@ This is a multi-functional keylogger developed in Python, designed for **educati
 ---
 
 ## 📁 Project Structure
-mac_keylogger_project/
-├── main.py                   # Entry point for running the keylogger
-├── config.py                 # Your private config (in .gitignore)
-├── config_sample.py          # Safe-to-share config template
-├── requirements.txt          # List of Python dependencies
-├── .gitignore                # Files/folders to exclude from Git
-├── README.md                 # Project documentation
-
-├── modules/                  # Core functionality modules
-│   ├── logger.py             # Keystroke logging
-│   ├── system_info.py        # System info gathering
-│   ├── clipboard.py          # Clipboard capturing
-│   ├── microphone.py         # Microphone audio recording
-│   ├── screenshot.py         # Screenshot capturing
-│   ├── emailer.py            # Sending logs via email
-│   ├── encryptor.py          # Encrypt logs using Fernet
-│   └── timer.py              # Task scheduling system
-
-└── logs/                     # Output directory for log files (ignored by Git)
-    ├── keylog.txt
-    ├── systeminfo.txt
-    ├── clipboard.txt
-    ├── screenshot.png
-    └── audio.wav
+<pre> ```text mac_keylogger_project/ ├── main.py # Entry point for running the keylogger ├── config.py # Your private config (in .gitignore) ├── config_sample.py # Safe-to-share config template ├── requirements.txt # List of Python dependencies ├── .gitignore # Files/folders to exclude from Git ├── README.md # Project documentation ├── modules/ # Core functionality modules │ ├── logger.py # Keystroke logging │ ├── system_info.py # System info gathering │ ├── clipboard.py # Clipboard capturing │ ├── microphone.py # Microphone audio recording │ ├── screenshot.py # Screenshot capturing │ ├── emailer.py # Sending logs via email │ ├── encryptor.py # Encrypt logs using Fernet │ └── timer.py # Task scheduling system └── logs/ # Output directory for log files (ignored by Git) ├── keylog.txt ├── systeminfo.txt ├── clipboard.txt ├── screenshot.png └── audio.wav ``` </pre>
