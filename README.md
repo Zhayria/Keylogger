@@ -29,4 +29,28 @@ This is a multi-functional keylogger developed in Python, designed for **educati
 ---
 
 ## 📁 Project Structure
+mac_keylogger_project/
+│
+├── main.py                     # Entry point: starts logger, timers, collection
+├── config.py                   # Private config file (excluded via .gitignore)
+├── config_sample.py            # Safe example config (for sharing)
+├── requirements.txt            # Python dependencies
+├── .gitignore                  # Ignore sensitive and system files
+├── README.md                   # Project description and setup instructions
+│
+└── modules/                    # All supporting functionality
+    ├── logger.py               # Keystroke logging (pynput)
+    ├── system_info.py          # Collects OS, user, and machine details
+    ├── clipboard.py            # Captures clipboard contents
+    ├── microphone.py           # Records ambient audio using sounddevice
+    ├── screenshot.py           # Takes screenshots at intervals
+    ├── emailer.py              # Sends logs as email attachments
+    ├── encryptor.py            # Fernet encryption for secure log handling
+    └── timer.py                # Threaded scheduler for periodic tasks
 
+logs/                           # Output folder for logs (excluded from Git)
+├── keylog.txt
+├── systeminfo.txt
+├── clipboard.txt
+├── screenshot.png
+└── audio.wav
