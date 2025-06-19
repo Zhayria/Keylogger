@@ -113,7 +113,7 @@ pyinstaller --onefile main.py
 
 **Zhayria Washington**  
 M.S. in Computer Science – Cybersecurity  
-GitHub: [@Zhayria](https://github.com/Zhayria)
+[LinkedIn](https://www.linkedin.com/in/zhayria-washington-2a2b86221)
 
 ---
 
